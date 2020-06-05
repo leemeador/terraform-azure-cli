@@ -11,3 +11,4 @@ RUN \
   pip --no-cache-dir install -U pip && \
   pip --no-cache-dir install azure-cli && \
   apk del --purge build
+  
