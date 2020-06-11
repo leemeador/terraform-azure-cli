@@ -11,7 +11,6 @@ RUN \
   apk add bash py-pip && \
   apk add --virtual=build gcc libffi-dev musl-dev openssl-dev python-dev make && \
   pip --no-cache-dir install -U pip && \
-  pip --no-cache-dir install azure-cli && \
   pip --no-cache-dir install azure-cli==${AZURE_CLI_VERSION} && \
   apk del --purge build
   
