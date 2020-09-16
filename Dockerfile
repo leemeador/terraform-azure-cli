@@ -3,7 +3,7 @@ ARG PYTHON_VERSION="3.8.2"
 FROM python:${PYTHON_VERSION}-alpine3.11
 
 # Install Terraform
-ENV TERRAFORM_VERSION 0.12.26
+ENV TERRAFORM_VERSION 0.13.2
 
 # Install APK Packages
 RUN apk upgrade --update && \
